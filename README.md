@@ -56,9 +56,8 @@ Although we are performing this study on behalf of Syriatel, we are actually giv
 
 Luckily, there are no missing values in this dataset and no significant outliers to work on. The only initial remark would be on a clear class imbalance in our target variable since only 14% of the users have churned.
 
-<h5 align="center">Number of Fights in the UFC Each Year</h5>
 <p align="center">
-  <img src="https://github.com/ravimalde/ufc_fight_predictor/blob/master/images/number_of_fights.png" width=850>
+  <img src="https://github.com/matteomm/syriatel_customerchurn_project/tree/master/images/class_imbalance.png" width=850>
 </p>
 
 We'll deal with class imbalance by constanly adjusting for the parameter 'class_weight' in our modelling. No SMOTE or undersampling have been applied in this instance.
